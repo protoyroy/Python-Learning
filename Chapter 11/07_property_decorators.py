@@ -13,6 +13,6 @@ class Employee:
         self.salarybonus = val -self.salary
 e = Employee()
 print(e.totalSalary)
-e.totalSalary = 25000 #to change salary and salary bonus
+e.totalSalary = 55000 #to change salary and salary bonus
 print(e.salary)
 print(e.salarybonus)
