@@ -17,7 +17,7 @@ class Vector:
         return Vector(newList)
     
     def __mul__(self,vec2):
-        result = 1
+        result = 0
         for i in range (len(self.vec)):
             result += self.vec[i] *vec2.vec[i] 
         return result
